@@ -539,10 +539,10 @@ body {
   text-align: center;
   color: #2e2f42;
   margin-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review-form-label {
   display: block;
