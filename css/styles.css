@@ -469,7 +469,7 @@ body {
 
 /* MODAL STYLE */
 .modal-backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
@@ -489,32 +489,41 @@ body {
   pointer-events: auto;
 }
 .modal-main {
-  position: relative;
+  position: absolute;
   width: 408px;
   height: 80%;
   min-height: 584px;
+  top: 50%;
+  left: 50%;
   background-color: #fcfcfc;
   border-radius: 4px;
   padding: 40px 24px 24px 24px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn {
   position: absolute;
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
   top: 24px;
+  height: 24px;
   right: 24px;
-  border-radius: 100%;
+  border-radius: 50%;
   stroke-width: 1px;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
   stroke: rgba(0, 0, 0, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
   fill: #fff;
+  border: none;
 }
 .modal-slogan {
   max-width: 360px;
