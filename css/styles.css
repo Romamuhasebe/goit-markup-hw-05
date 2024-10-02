@@ -540,9 +540,10 @@ body {
   color: #2e2f42;
   margin-top: 24px;
   margin-bottom: 16px;
+  padding: 72px 24px 24px 24px;
 }
 .review-form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-label {
   display: block;
