@@ -542,7 +542,7 @@ body {
   margin-bottom: 16px;
 }
 .review-form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-label {
   display: block;
@@ -555,7 +555,6 @@ body {
 }
 .review-form-main {
   position: relative;
-  margin-bottom: 4px;
 }
 .review-form-icons {
   position: absolute;
