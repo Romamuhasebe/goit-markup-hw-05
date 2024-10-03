@@ -542,7 +542,7 @@ body {
   margin-bottom: 16px;
 }
 .review-form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-label {
   display: block;
@@ -612,7 +612,6 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .review-form-checkbox-label {
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
